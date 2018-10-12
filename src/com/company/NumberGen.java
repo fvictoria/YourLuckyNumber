@@ -9,8 +9,9 @@ public class NumberGen {
     public NumberGen (int r){ number = r;}
     public int RandomNumber ()
     {
-        Random rand = new Random ();
-        int n = rand.nextInt(10)+5;
-        return n;
+        public Random rand = new Random ();
+        int a = rand.nextInt(100000)+1;
+        int n = a*a
+            return n;
     }
 }
