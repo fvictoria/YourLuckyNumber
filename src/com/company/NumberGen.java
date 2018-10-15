@@ -10,8 +10,8 @@ public class NumberGen {
     public static int RandomNumber ()
     {
         Random rand = new Random ();
-        int a = rand.nextInt(100000)+5;
-        int n = a*a;
-            return n;
+        int n = rand.nextInt(100)+1;
+        int h = (int)Math.pow(n,2);
+            return h;
     }
 }
