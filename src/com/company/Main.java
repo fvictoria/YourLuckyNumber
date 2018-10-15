@@ -7,7 +7,7 @@ public class Main {
 	System.out.println("What is your name?");
     Scanner kbReader = new Scanner(System.in);
     String name = kbReader.nextLine();
-    System.out.println("Nice to meet you "+name+"! Your lucky number is "+Math.random());
+    System.out.println("Nice to meet you "+name+"! Your lucky number is "+NumberGen.RandomNumber());
 
     }
 }
